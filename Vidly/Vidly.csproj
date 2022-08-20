@@ -175,6 +175,22 @@
     <Compile Include="Migrations\202208191315081_AddMembershipType.Designer.cs">
       <DependentUpon>202208191315081_AddMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202208191347275_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\202208191347275_PopulateMembershipTypes.Designer.cs">
+      <DependentUpon>202208191347275_PopulateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208191359292_AddAnnotationToCustomerName.cs" />
+    <Compile Include="Migrations\202208191359292_AddAnnotationToCustomerName.Designer.cs">
+      <DependentUpon>202208191359292_AddAnnotationToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208200413482_AddMembershipTypName.cs" />
+    <Compile Include="Migrations\202208200413482_AddMembershipTypName.Designer.cs">
+      <DependentUpon>202208200413482_AddMembershipTypName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208200414434_UpdateMembershipTypeTableData.cs" />
+    <Compile Include="Migrations\202208200414434_UpdateMembershipTypeTableData.Designer.cs">
+      <DependentUpon>202208200414434_UpdateMembershipTypeTableData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -285,6 +301,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202208191315081_AddMembershipType.resx">
       <DependentUpon>202208191315081_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208191347275_PopulateMembershipTypes.resx">
+      <DependentUpon>202208191347275_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208191359292_AddAnnotationToCustomerName.resx">
+      <DependentUpon>202208191359292_AddAnnotationToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208200413482_AddMembershipTypName.resx">
+      <DependentUpon>202208200413482_AddMembershipTypName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208200414434_UpdateMembershipTypeTableData.resx">
+      <DependentUpon>202208200414434_UpdateMembershipTypeTableData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

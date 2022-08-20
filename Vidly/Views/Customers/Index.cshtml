@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Vividly.Models.Customer>
+﻿@model IEnumerable<Vidly.Models.Customer>
 
 @{ ViewBag.Title = "Customers";
     Layout = "~/Views/Shared/_Layout.cshtml"; }
@@ -13,6 +13,7 @@ else
     <thead>
         <tr>
             <th>Customer</th>
+            <th>Discount Rate</th>
         </tr>
     </thead>
     <tbody>
@@ -20,6 +21,7 @@ else
         {
 <tr>
     <td>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null)</td>
+    <td>@customer.MembershipType.MembershipTypeName</td>
 </tr>
 }
     </tbody>
