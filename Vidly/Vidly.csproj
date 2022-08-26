@@ -207,6 +207,14 @@
     <Compile Include="Migrations\202208210528065_AddGenreData.Designer.cs">
       <DependentUpon>202208210528065_AddGenreData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202208240418107_AddAnnotaionToMovieModel.cs" />
+    <Compile Include="Migrations\202208240418107_AddAnnotaionToMovieModel.Designer.cs">
+      <DependentUpon>202208240418107_AddAnnotaionToMovieModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208240432322_AddAnnotaionToMovieModel1.cs" />
+    <Compile Include="Migrations\202208240432322_AddAnnotaionToMovieModel1.Designer.cs">
+      <DependentUpon>202208240432322_AddAnnotaionToMovieModel1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
@@ -348,6 +356,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202208210528065_AddGenreData.resx">
       <DependentUpon>202208210528065_AddGenreData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208240418107_AddAnnotaionToMovieModel.resx">
+      <DependentUpon>202208240418107_AddAnnotaionToMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208240432322_AddAnnotaionToMovieModel1.resx">
+      <DependentUpon>202208240432322_AddAnnotaionToMovieModel1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
